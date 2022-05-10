@@ -26,7 +26,6 @@ default_skills = [
 ]
 
 default_optional_ranks = [
-    "league_points",
     "bounty_hunter_hunter",
     "bounty_hunter_rogue",
     "clue_scrolls_all",
@@ -37,6 +36,8 @@ default_optional_ranks = [
     "clue_scrolls_elite",
     "clue_scrolls_master",
     "lms_rank",
+    "soul_wars_zeal",
+    "rifts_closed",
 ]
 
 default_boss_ranks = [
@@ -67,14 +68,18 @@ default_boss_ranks = [
     "kree'arra",
     "k'ril_tsutsaroth",
     "mimic",
+    "nex",
     "nightmare",
+    "phosani's_nightmare",
     "obor",
     "sarachnis",
     "scorpia",
     "skotizo",
+    "tempoross",
     "the_gauntlet",
     "the_corrupted_gauntlet",
     "theatre_of_blood",
+    "theatre_of_blood_hard",
     "thermonuclear_smoke_devil",
     "tzkal-zuk",
     "tztok-jad",
