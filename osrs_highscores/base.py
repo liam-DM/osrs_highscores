@@ -56,7 +56,7 @@ class OSRSBase(object):
             self._format_url Pointer with provided Value from if/else self.target param.
         """
         if self.target == 'default':
-            return self.__format_url("hiscore_oldschool", **kwargs)
+            return self.__format_url("hiscore_oldschool_deadman", **kwargs)
         elif self.target == 'ironman':
             return self.__format_url("hiscore_oldschool_ironman", **kwargs)
         elif self.target == 'ultimate':
@@ -65,8 +65,8 @@ class OSRSBase(object):
             return self.__format_url("hiscore_oldschool_hardcore_ironman", **kwargs)
         elif self.target == 'seasonal':
             return self.__format_url("hiscore_oldschool_seasonal", **kwargs)
-        elif self.target == 'deadman':
-            return self.__format_url("hiscore_oldschool_deadman", **kwargs)
+        elif self.target == 'normal':
+            return self.__format_url("hiscore_oldschool", **kwargs)
         elif self.target == 'tournament':
             return self.__format_url("hiscore_oldschool_tournament", **kwargs)
         else:
